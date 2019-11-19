@@ -1,0 +1,1 @@
+.\sound.o: Sound.c

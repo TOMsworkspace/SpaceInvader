@@ -1,0 +1,18 @@
+Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
+F (.\startup.s)(0x519782AA)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I F:\Tax\ARM\RV31\INC-I F:\Tax\ARM\CMSIS\Include-I F:\Tax\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Nokia5110.c)(0x5343AAEE)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I F:\Tax\ARM\RV31\INC-I F:\Tax\ARM\CMSIS\Include-I F:\Tax\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Nokia5110.h)(0x5343AAEE)
+F (.\random.s)(0x528625F2)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I F:\Tax\ARM\RV31\INC-I F:\Tax\ARM\CMSIS\Include-I F:\Tax\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\TExaS.c)(0x5CEAA4D3)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I F:\Tax\ARM\RV31\INC-I F:\Tax\ARM\CMSIS\Include-I F:\Tax\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (TExaS.h)(0x5345FF1E)
+F (.\ADC.c)(0x5CEE6C0F)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I F:\Tax\ARM\RV31\INC-I F:\Tax\ARM\CMSIS\Include-I F:\Tax\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (ADC.h)(0x5CECBCA4)
+I (..//tm4c123gh6pm.h)(0x51D40032)
+F (.\SpaceInvaders1.c)(0x5CEF5E1E)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I F:\Tax\ARM\RV31\INC-I F:\Tax\ARM\CMSIS\Include-I F:\Tax\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders1.o --omf_browse .\spaceinvaders1.crf --depend .\spaceinvaders1.d)
+I (..//tm4c123gh6pm.h)(0x51D40032)
+I (Nokia5110.h)(0x5343AAEE)
+I (Random.h)(0x528625E2)
+I (TExaS.h)(0x5345FF1E)
+I (ADC.h)(0x5CECBCA4)
+I (F:\Tax\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (PLL.h)(0x523040CC)
